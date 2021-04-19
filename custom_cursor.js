@@ -12,4 +12,4 @@ var customCur = () => {
         $(hoverObject[i]).attr("cursor", cursorType[i].toString());
     }
 }
-customCur;
+customCur(); 
