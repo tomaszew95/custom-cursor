@@ -11,7 +11,7 @@ var customCur = () => {
     for(let i=0;i<hoverObject.length;i++){
         hoverObj = hoverObject[i].toString();
         // hoverObj[i] = document.querySelectorAll(hoverObject[i].toString());
-        $(hoverObj).attr("style", 'cursor:' + cursorType[i].toString());
+        $(".hotspot").attr("style", 'cursor:' + cursorType[i].toString());
         console.log($(hoverObj));
     }
 }
