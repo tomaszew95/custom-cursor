@@ -8,9 +8,9 @@ var customCur = () => {
         return;
     }
     for(let i=0;i<hoverObject.length;i++){
-        let hoverObj = [];
-        hoverObj[i] = document.querySelectorAll(hoverObject[i].toString());
-        $(hoverObj[i]).attr("cursor", cursorType[i].toString());
+        // let hoverObj = [];
+        // hoverObj[i] = document.querySelectorAll(hoverObject[i].toString());
+        $(hoverObject[i]).attr("cursor", cursorType[i].toString());
         console.log($(hoverObj[i]));
     }
 }
