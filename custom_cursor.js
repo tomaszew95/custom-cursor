@@ -8,8 +8,8 @@ var customCur = () => {
         return;
     }
     for(let i=0;i<hoverObject.length;i++){
-        console.log('works1');
-        $(hoverObject[i]).attr("cursor", cursorType[i].toString());
+        $(`hoverObject[i]`).attr("cursor", cursorType[i].toString());
+        console.log(`hoverObject[i]`);
     }
 }
-customCur(); 
+customCur();
