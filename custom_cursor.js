@@ -8,8 +8,10 @@ var customCur = () => {
         return;
     }
     for(let i=0;i<hoverObject.length;i++){
-        `$(hoverObject[i])`.attr("cursor", cursorType[i].toString());
-        console.log(`$(hoverObject[i])`);
+        let hoverObj = [];
+        hoverObj[i] = document.querySelectorAll(hoverObject[i].toString());
+        $(hoverObj[i]).attr("cursor", cursorType[i].toString());
+        console.log($(hoverObj[i]));
     }
 }
 customCur();
