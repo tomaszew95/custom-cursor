@@ -11,7 +11,7 @@ var customCur = () => {
         // let hoverObj = [];
         // hoverObj[i] = document.querySelectorAll(hoverObject[i].toString());
         $(hoverObject[i]).attr("cursor", cursorType[i].toString());
-        console.log($(hoverObj[i]));
+        console.log($(hoverObject[i]));
     }
 }
 customCur();
