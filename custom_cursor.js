@@ -1,6 +1,6 @@
 var customCursor = document.getElementById("ceros-custom-cursor-plugin");
-var hoverObject = customCursor.getAttribute("hover-object").split(" ");
-var cursorType = customCursor.getAttribute("cursor-type").split(" ");
+var hoverObject = customCursor.getAttribute("hover-object").split("  ");
+var cursorType = customCursor.getAttribute("cursor-type").split("  ");
 (function(){
     'use strict'; 
     require.config({ 
